@@ -6,46 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db264107-67b6-484d-991b-e845d40be01d" name="Default Changelist" comment="Servlet项目改造成SpringMVC">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db264107-67b6-484d-991b-e845d40be01d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaEE-SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE-SpringMVC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/META-INF/JavaEE-SpringMVC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddStudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddStudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyStudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyStudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ResubmitHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ResubmitHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/SubmitHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/SubmitHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/jdbc/StudentHomeworkJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/jdbc/StudentHomeworkJdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddHomeworkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddStudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/HelloWorldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ModifyHomeworkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ModifyStudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ResubmitHomeworkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/StudentHomeworkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/SubmitHomeworkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/jdbc/DatabasePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/jdbc/StudentHomeworkJdbc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/Homework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/StudentHomework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddHomeworkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/HelloWorldController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ModifyHomeworkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ModifyStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/StudentHomeworkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SubmitHomeworkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/DatabasePool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/StudentHomeworkJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Homework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/StudentHomework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/aop/Aop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -261,7 +223,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587557579743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587557894379" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/homework_management_system_ioc-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -465,7 +427,7 @@
       <workItem from="1586153684384" duration="12556000" />
       <workItem from="1586241613887" duration="10133000" />
       <workItem from="1586480795343" duration="107000" />
-      <workItem from="1587522058599" duration="15427000" />
+      <workItem from="1587522058599" duration="15935000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet项目改造成SpringMVC">
       <created>1586183054473</created>
@@ -481,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586183637425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Servlet项目改造成SpringMVC">
+      <created>1587557634952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587557634952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38223000" />
+    <option name="totallyTimeSpent" value="38731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -500,14 +469,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29886687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5240793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.4036827" />
@@ -764,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aop/Aop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
