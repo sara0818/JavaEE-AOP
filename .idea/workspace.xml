@@ -6,20 +6,49 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db264107-67b6-484d-991b-e845d40be01d" name="Default Changelist" comment="">
+    <list default="true" id="db264107-67b6-484d-991b-e845d40be01d" name="Default Changelist" comment="Servlet项目改造成SpringMVC">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE-SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE-SpringMVC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/META-INF/JavaEE-SpringMVC.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddHomeworkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddHomeworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddHomeworkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddStudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ModifyHomeworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ModifyHomeworkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ModifyStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ModifyStudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SubmitHomeworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SubmitHomeworkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddStudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/AddStudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyHomeworkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyStudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ModifyStudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ResubmitHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/ResubmitHomeworkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/SubmitHomeworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/controller/SubmitHomeworkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/jdbc/StudentHomeworkJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaEE_SpringMVC_war_exploded/WEB-INF/classes/jdbc/StudentHomeworkJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddHomeworkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/AddStudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/HelloWorldController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ModifyHomeworkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ModifyStudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/ResubmitHomeworkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/StudentHomeworkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/controller/SubmitHomeworkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/jdbc/DatabasePool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/jdbc/StudentHomeworkJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/Homework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaEE-SpringMVC/model/StudentHomework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddHomeworkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddStudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ModifyHomeworkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ModifyStudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/StudentHomeworkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SubmitHomeworkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/DatabasePool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/StudentHomeworkJdbc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Homework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/StudentHomework.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,34 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ModifyHomeworkController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jdbc/StudentHomeworkJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ModifyStudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="82" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="82" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,57 +70,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/StudentHomeworkController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aop/Aop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-190">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/SubmitHomeworkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/AddHomeworkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/AddStudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,6 +90,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -153,13 +116,21 @@
         <option value="$PROJECT_DIR$/src/controller/StudentHomeworkController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/bean/TestBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/controller/AddHomeworkController.java" />
         <option value="$PROJECT_DIR$/src/controller/AddStudentController.java" />
         <option value="$PROJECT_DIR$/src/controller/ModifyHomeworkController.java" />
         <option value="$PROJECT_DIR$/src/controller/ModifyStudentController.java" />
         <option value="$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java" />
         <option value="$PROJECT_DIR$/src/controller/SubmitHomeworkController.java" />
+        <option value="$PROJECT_DIR$/src/controller/AddHomeworkController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/jdbc/Methods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ModifyHomeworkController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jdbc/DatabasePool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jdbc/StudentHomeworkJdbc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/aop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/Aop.java" />
       </list>
     </option>
   </component>
@@ -172,15 +143,35 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaEE-SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaEE-SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaEE-SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaEE-SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="400" />
-    <option name="y" value="276" />
-    <option name="width" value="1510" />
-    <option name="height" value="709" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-188" />
+    <option name="y" value="12" />
+    <option name="width" value="1044" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,18 +195,37 @@
               <item name="JavaEE-SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaEE-SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaEE-SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaEE-SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaEE-SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,12 +244,13 @@
               <item name="JavaEE-SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -251,16 +261,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586312867794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587557579743" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEE-SpringIoc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/homework_management_system_ioc-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="flex.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -453,7 +463,9 @@
       <option name="presentableId" value="Default" />
       <updated>1586153677556</updated>
       <workItem from="1586153684384" duration="12556000" />
-      <workItem from="1586241613887" duration="8632000" />
+      <workItem from="1586241613887" duration="10133000" />
+      <workItem from="1586480795343" duration="107000" />
+      <workItem from="1587522058599" duration="15427000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet项目改造成SpringMVC">
       <created>1586183054473</created>
@@ -473,13 +485,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21188000" />
+    <option name="totallyTimeSpent" value="38223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20040214" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +500,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29886687" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29886687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +510,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.07920792" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4036827" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -529,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resubmitHomework.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -557,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/checkHomework.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/submitHomework.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -571,14 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/addStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/HelloWorldController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -590,16 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/DatabasePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addHomework.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -607,23 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/TestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TestBean.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -631,97 +595,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Homework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/StudentHomeworkJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2386">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/StudentHomework.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/StudentHomework.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ModifyStudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AddHomeworkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="67" />
+        <state relative-caret-position="323">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ModifyHomeworkController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ResubmitHomeworkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AddStudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StudentHomeworkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="447">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ModifyStudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SubmitHomeworkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ResubmitHomeworkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="82" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitHomeworkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="257">
           <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -729,12 +642,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/StudentHomeworkController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddStudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="257">
+          <caret line="21" column="57" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaEE-SpringMVC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/checkHomework.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Homework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ModifyHomeworkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddHomeworkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jdbc/DatabasePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jdbc/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jdbc/StudentHomeworkJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/Aop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,6 +777,17 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
@@ -758,7 +804,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (JavaEE-SpringMVC)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -793,7 +839,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JavaEE-SpringMVC</last-edited>
+          <last-edited>Spring|JavaEE-SpringMVC</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -817,7 +863,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring MVC-5.2.3.RELEASE</last-edited>
+          <last-edited>Spring-5.2.3.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
